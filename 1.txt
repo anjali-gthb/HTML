@@ -1,0 +1,5 @@
+html is not a programming language it is a hypertext markup language.
+
+markup language is a computer language uses tags ,elements which are predefined.
+
+css- it is used to style html pages
