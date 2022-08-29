@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forms in html</title>
+  </head>
+  <body>
+    <form action="thankyou.htm" method="get">
+      <label for="username">Username:</label>
+      <input type="text" id="username" required /><br /><br />
+
+      <label for="email">Email: </label>
+      <input type="email"id="email"placeholder="enter yur email "required><br /><br />
+
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" required /><br /><br />
+
+      <label for="age">Age: </label>
+      <select id="age" name="age-group">
+        <option value="10-20">10-20</option>
+        <option value="20-30">20-30</option>
+        <option value="30-50">30-50</option>
+        <option value="50+">50+</option>
+      </select>
+      <br /><br />
+
+      <label for="male">Gender: </label><br />
+      Male: <input type="radio" name="gender"  required /><br />
+      Female: <input type="radio" name="gender"  required /><br />
+      Other: <input type="radio" name="gender"  required /><br /><br />
+
+      <label for="text">share some experience:</label><br />
+      <textarea  id="text" cols="30" rows="10" placeholder="write here"></textarea><br /><br />
+
+      <label for="date">Date</label>
+      <input type="date" id="date"><br><br>
+
+      <button>submit</button>
+    </form>
+  </body>
+</html>
